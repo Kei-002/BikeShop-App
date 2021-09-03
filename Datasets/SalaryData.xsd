@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SalaryData" targetNamespace="http://tempuri.org/SalaryData.xsd" xmlns:mstns="http://tempuri.org/SalaryData.xsd" xmlns="http://tempuri.org/SalaryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SalaryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SalaryData" msprop:Generator_UserDSName="SalaryData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Salaryzzz" msprop:Generator_TableClassName="SalaryzzzDataTable" msprop:Generator_TableVarName="tableSalaryzzz" msprop:Generator_TablePropName="Salaryzzz" msprop:Generator_RowDeletingName="SalaryzzzRowDeleting" msprop:Generator_RowChangingName="SalaryzzzRowChanging" msprop:Generator_RowEvHandlerName="SalaryzzzRowChangeEventHandler" msprop:Generator_RowDeletedName="SalaryzzzRowDeleted" msprop:Generator_UserTableName="Salaryzzz" msprop:Generator_RowChangedName="SalaryzzzRowChanged" msprop:Generator_RowEvArgName="SalaryzzzRowChangeEvent" msprop:Generator_RowClassName="SalaryzzzRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="bikeservice_id" msprop:Generator_ColumnVarNameInTable="columnbikeservice_id" msprop:Generator_ColumnPropNameInRow="bikeservice_id" msprop:Generator_ColumnPropNameInTable="bikeservice_idColumn" msprop:Generator_UserColumnName="bikeservice_id" type="xs:string" minOccurs="0" />
+              <xs:element name="ServiceName" msprop:Generator_ColumnVarNameInTable="columnServiceName" msprop:Generator_ColumnPropNameInRow="ServiceName" msprop:Generator_ColumnPropNameInTable="ServiceNameColumn" msprop:Generator_UserColumnName="ServiceName" type="xs:string" minOccurs="0" />
+              <xs:element name="service_date" msprop:Generator_ColumnVarNameInTable="columnservice_date" msprop:Generator_ColumnPropNameInRow="service_date" msprop:Generator_ColumnPropNameInTable="service_dateColumn" msprop:Generator_UserColumnName="service_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="salary" msprop:Generator_ColumnVarNameInTable="columnsalary" msprop:Generator_ColumnPropNameInRow="salary" msprop:Generator_ColumnPropNameInTable="salaryColumn" msprop:Generator_UserColumnName="salary" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
